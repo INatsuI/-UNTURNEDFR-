@@ -8,7 +8,7 @@ bot.on("ready", function() {
     console.log("UnturnedFR Connecté");
 });
 
-bot.login(NDc5NDA5MjMzOTk4MTE4OTEy.DlY0kQ.q3-qRywUk9uP_GbZrblCmqe8EIQ);
+bot.login(process.env.TOKEN);
 
 
 bot.on("message", message => {
