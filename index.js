@@ -40,4 +40,4 @@ bot.on("message", message => {
         message.channel.send({embed})
       }
 
-    )}
+    )};
