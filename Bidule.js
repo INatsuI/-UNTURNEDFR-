@@ -4,7 +4,7 @@ const bot = new Discord.Client();
 var prefix = ("UFR ")
 
 bot.on("ready", function() {
-    bot.user.setActivity(`UFR Aide | BY @Edωɨה#5292 `)
+    bot.user.setActivity(`UFR Aide | BY @Edωɨה#5292 [V 2.0`)
     console.log("UFR EST CONNECTE !!");
 });
 
