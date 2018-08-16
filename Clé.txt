@@ -1,8 +1,0 @@
-CLIEND ID:  479409233998118912
-
-CLIENT SECRET:  Z_-ZtxoyYdoLyO4Swjc5jXFRU7sqBV4Y
-
-TOKEN: NDc5NDA5MjMzOTk4MTE4OTEy.DlY0kQ.q3-qRywUk9uP_GbZrblCmqe8EIQ
-
-
-https://discordapp.com/oauth2/authorize?client_id=479409233998118912&scope=bot&permissions=66321471
