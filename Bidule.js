@@ -10,7 +10,7 @@ bot.on("ready", function() {
 
 bot.login(process.env.TOKEN);
 
-client.on("guildMemberAdd", member => {
+client.on("guildMemberAdd", $member => {
   const bvn = member.guild.channels.find(m => m.name === "cdd")
   if (!bvn) return;
   const embed = new Discord.RichEmbed()
