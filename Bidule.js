@@ -10,7 +10,7 @@ bot.on("ready", function() {
 
 bot.login(process.env.TOKEN);
 
-bot.on("guildMemberRemove", member => {
+bot.on("guildMemberAdd", member => {
   member.guild.channels.find("général").send(`${member} **Je te souhaite la bienvenue sur Unturned France.** `)
 })
 
