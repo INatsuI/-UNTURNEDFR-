@@ -19,7 +19,7 @@ bot.on("message", message => {
         .setDescription("__**UNTURNED FR**__ : \n" +
             " `UFR Staff` : *Te donne la liste du Staff.* \n" +
             " `UFR Give` : *@Qui? @Role?.* \n" +
-            " `UFR Groupe` : *Te donne les groupe d'Unturned FR.* \n" +
+            " `UFR Groupe` : *Te donne les groupe d'Unturned FR.* \n" )
       message.author.send({embed});
       message.reply(" 📧 Regarde tes messages !");
       }
