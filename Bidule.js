@@ -154,7 +154,7 @@ bot.on("message", message => {
         if(message.content.startsWith(prefix + "Groupe") || message.content.startsWith(prefix + "GROUPE")) {
           let embed = new Discord.RichEmbed()
           .setColor('#6C67FF')
-          .setDescription("**Groupe Steam: [Clic ici](https://steamcommunity.com/groups/AlfiaYou) **\n" )
+          .setDescription("**Groupe Steam: [Juste ici](https://steamcommunity.com/groups/AlfiaYou) **\n" )
           .setFooter(`Réclamé par ${message.author.tag} | @Edωɨה#5292 `)
           .setTimestamp()
           message.channel.send({embed})
